@@ -1,0 +1,95 @@
+.conteiner {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 0.5fr 2.5fr 1fr;
+  width: 1200px;
+  height: 600px;
+}
+header {
+  display: grid;
+  grid-column: 1/4;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(211, 205, 205, 0.724);
+}
+span {
+  font-size: 20px;
+  font-weight: 900;
+}
+main {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  grid-column: 1/4;
+  justify-content: center;
+}
+.main_block {
+  display: grid;
+  background-color: beige;
+}
+.titel {
+  display: grid;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.under {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.section1 {
+  display: grid;
+  justify-content: center;
+  align-self: self-end;
+  padding: 30px;
+  margin-right: 12px;
+  background-color: rgba(246, 213, 172, 0.854);
+  font-size: 20px;
+  font-weight: 900;
+}
+.section2 {
+  display: grid;
+  justify-content: center;
+  align-self: self-end;
+  padding: 30px;
+  margin-left: 12px;
+  background-color: rgba(246, 213, 172, 0.854);
+  font-size: 20px;
+  font-weight: 900;
+}
+.section3 {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(246, 213, 172, 0.854);
+  font-size: 20px;
+  font-weight: 900;
+}
+aside {
+  display: grid;
+  justify-content: center;
+  padding: 25px;
+  background-color: rgba(202, 224, 198, 0.763);
+}
+footer {
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-self: stretch;
+  background-color: rgba(211, 205, 205, 0.724);
+}
+.footer_element {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  padding: 30px 50px 30px 50px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
